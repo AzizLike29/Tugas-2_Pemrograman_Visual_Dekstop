@@ -1,0 +1,115 @@
+object frmUtama: TfrmUtama
+  Left = 936
+  Height = 408
+  Top = 326
+  Width = 708
+  Caption = 'Faktorial'
+  ClientHeight = 408
+  ClientWidth = 708
+  Color = clActiveCaption
+  DesignTimePPI = 144
+  LCLVersion = '2.2.6.0'
+  object lblJudul: TLabel
+    Left = 200
+    Height = 25
+    Top = 24
+    Width = 341
+    Caption = 'Program Menghitung Faktorial'
+    Color = clBtnHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -20
+    Font.Name = 'Magneto'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object lblN: TLabel
+    Left = 70
+    Height = 25
+    Top = 80
+    Width = 13
+    Caption = 'N'
+    ParentColor = False
+  end
+  object edtDeret: TEdit
+    Left = 120
+    Height = 33
+    Top = 80
+    Width = 384
+    TabOrder = 0
+  end
+  object btnHitung: TButton
+    Left = 536
+    Height = 38
+    Top = 80
+    Width = 113
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 1
+  end
+  object edtHasil: TGroupBox
+    Left = 70
+    Height = 182
+    Top = 152
+    Width = 579
+    Caption = 'Hasil'
+    ClientHeight = 152
+    ClientWidth = 575
+    Color = clWindow
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 2
+    object lblFaktorial: TLabel
+      Left = 32
+      Height = 25
+      Top = 27
+      Width = 66
+      Caption = 'Faktorial'
+      ParentColor = False
+    end
+    object edtFaktorial: TEdit
+      Left = 120
+      Height = 33
+      Top = 27
+      Width = 416
+      TabOrder = 0
+    end
+    object lblJumlah: TLabel
+      Left = 32
+      Height = 25
+      Top = 96
+      Width = 55
+      Caption = 'Jumlah'
+      ParentColor = False
+    end
+    object edtJumlah: TEdit
+      Left = 120
+      Height = 33
+      Top = 96
+      Width = 416
+      TabOrder = 1
+    end
+  end
+  object btnClose: TButton
+    Left = 536
+    Height = 38
+    Top = 352
+    Width = 113
+    Caption = 'Close'
+    OnClick = btnCloseClick
+    TabOrder = 3
+  end
+  object btnClear: TButton
+    Left = 70
+    Height = 38
+    Top = 352
+    Width = 113
+    Caption = 'Clear'
+    OnClick = btnClearClick
+    TabOrder = 4
+  end
+end
